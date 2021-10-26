@@ -1,3 +1,10 @@
+// ==UserScript==
+// @name       BFC Crash Farm - Click
+// @author     Xtb
+// @match      https://blockfarm.club/farm/*
+// @require    http://code.jquery.com/jquery-latest.js
+// ==/UserScript==
+
 function run25FuncAsync(func){
     setTimeout(function(){try{eval(func)}catch(e){}}, 0);
     setTimeout(function(){try{eval(func)}catch(e){}}, 0);
