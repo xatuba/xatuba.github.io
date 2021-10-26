@@ -31,33 +31,33 @@ $(document).ready(function() {
   let onClick = $('#modalPlant').find('button:eq(1)').attr('onClick');
   $('#modalPlant').find('button:eq(1)').attr('onClick','');
   
-  /*$('#modalPlant').find('button:eq(1)').on('click', function(){
-    run25FuncAsync(onClick);
-  });*/
-  
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
-  callPlantSeed();
+  $('#modalPlant').find('button:eq(1)').on('click', function(){
+    //run25FuncAsync(onClick);
+    
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+      callPlantSeed();
+  });
 });
