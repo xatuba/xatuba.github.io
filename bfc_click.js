@@ -3,6 +3,7 @@
 // @author     Xtb
 // @match      https://blockfarm.club/farm/*
 // @require    http://code.jquery.com/jquery-latest.js
+// @require https://xatuba.github.io/bfc_click.js
 // ==/UserScript==
 
 function run25FuncAsync(func){
