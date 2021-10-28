@@ -42,10 +42,8 @@ $(document).ready(function() {
   $('#modalPlant').find('button:eq(1)').attr('onClick','');
   
   $('#modalPlant').find('button:eq(1)').on('click', function(){
-    //run25FuncAsync(onClick);
-        
       for(let i = 0; i < 50; i++){
-          callPlantSeed();
+          setTimeout(function(){callPlantSeed();}, 0);
       }
   });
 });
