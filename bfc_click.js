@@ -43,31 +43,9 @@ $(document).ready(function() {
   
   $('#modalPlant').find('button:eq(1)').on('click', function(){
     //run25FuncAsync(onClick);
-    
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
-      callPlantSeed();
+        
+      for(let i = 0; i < 50; i++){
+          callPlantSeed();
+      }
   });
 });
