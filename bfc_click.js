@@ -8,42 +8,13 @@
 // @updateURL https://xatuba.github.io/bfc_click.js
 // ==/UserScript==
 
-function run25FuncAsync(func){
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-    setTimeout(function(){try{eval(func)}catch(e){}}, 0);
-}
-
 $(document).ready(function() {
   let onClick = $('#modalPlant').find('button:eq(1)').attr('onClick');
   $('#modalPlant').find('button:eq(1)').attr('onClick','');
   
   $('#modalPlant').find('button:eq(1)').on('click', function(){
       for(let i = 0; i < 50; i++){
-          setTimeout(function(){callPlantSeed();}, 0);
+          setTimeout(function(){callPlantSeed();}, 100);
       }
   });
 });
